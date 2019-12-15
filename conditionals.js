@@ -1,5 +1,13 @@
-const raining = true;
+const age = 13;
 
-if (!raining) {
-  console.log('leave your umbrella at home!');
+if (age < 13) {
+    console.log('Elementary School');
+  } else if ((age <= 13) && (age => 18)) {
+    console.log("Secondary School");
+  } else {
+    console.log("Lighthouse Labs");
+  }
+
 }
+
+
